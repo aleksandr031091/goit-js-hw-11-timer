@@ -34,6 +34,7 @@ class CountdownTimer {
   }
 
   start() {
+    this.setTime();
     setInterval(() => {
       this.setTime();
     }, 1000);
